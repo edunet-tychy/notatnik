@@ -5,7 +5,7 @@ include_once("interface.database.php");
 
 class Nauczyciel implements Database
 {
-	private $_salt='e3FGde4';
+	private $_salt='';
 	private $_id;
 	private $_imie;
 	private $_nazwisko;

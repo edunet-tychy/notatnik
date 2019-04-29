@@ -3,10 +3,10 @@
 //class.connect.php
 class Connect {
 
-	private static $server = 'sqlhosting5';
-	private static $user = 'edunet_notatnik';
-	private static $pass = 'alinka@12';
-	private static $db = 'edunet_notatnik';
+	private static $server = '';
+	private static $user = '';
+	private static $pass = '';
+	private static $db = '';
 	private static $Database;
 
 	function __construct(){

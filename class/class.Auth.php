@@ -2,7 +2,7 @@
 
 class Auth {
 
-	private $_salt='e3FGde4';
+	private $_salt='';
 	private $_nazwisko;
 	private $_imie;
 	private $_rola;
