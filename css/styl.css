@@ -1,0 +1,100 @@
+@charset "utf-8";
+/* CSS Document */
+
+/***************************************/
+/*********** Belka - index.php *********/
+/***************************************/
+header{
+	background: #EBEBEB;
+	margin-top: 10px;
+}
+/***************************************/
+/***************** Alerty **************/
+/***************************************/
+ul{
+	list-style-type:none;
+}
+li.success {
+	color: #2F9F2E;
+}
+li.warning {
+	color: #FFAC10;
+}
+li.error {
+	color: #FF0004;
+}
+/***************************************/
+/************ Nagłówek tytułu **********/
+/***************************************/
+#tytul{
+	margin-top: 50px;
+	color: #828282;
+}
+/***************************************/
+/********** Formularz ogólnie **********/
+/***************************************/
+select{
+	width: 200px;
+	height: 28px;
+}
+input[type=text], input[type=password] {
+	width: 200px;
+}
+input[type=text].temat {
+	width: 650px;
+}
+input[type=text].opis {
+	width: 200px;
+}
+/***************************************/
+/******** Formularz v_uczen.php ********/
+/***************************************/
+#klasa{
+	height: 32px;
+	margin: 10px;
+}
+/***************************************/
+/* Formularz v_add_edit_przedmioty.php */
+/***************************************/
+#nazwa{
+	width: 300px;
+}
+/***************************************/
+/* Formularz v_add_edit_rozklad.php */
+/***************************************/
+.tematy{
+	margin-left: 0rem;
+}
+.godz{
+	width: 50px;
+}
+.oceny{
+	width: 60px;
+}
+.miesiac{
+	width: 100px;
+}
+.lekcje{
+	width: 140px;
+}
+
+/***************************************/
+/* Formularz v_lekcje.php */
+/***************************************/
+#prawy{
+	padding-top: 15px;
+	float: right;
+}
+select.zajecia{
+	width: 700px;
+}
+/***************************************/
+/* Formularz v_add_edit_plan.php */
+/***************************************/
+.plan{
+	width: 160px;
+}
+.prawy{
+	margin-top: -8px;
+	float: right;
+}
